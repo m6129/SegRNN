@@ -8,8 +8,8 @@ fi
 model_name=SegRNN
 
 root_path_name=./dataset/
-data_path_name=weather.csv
-model_id_name=weather
+data_path_name=exchange_rate.csv
+model_id_name=exchange_rate
 data_name=custom
 
 seq_len=720
