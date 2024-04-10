@@ -8,7 +8,7 @@ fi
 model_name=SegRNN
 
 root_path_name=./dataset/
-data_path_name=illness.csv
+data_path_name=national_illness.csv
 model_id_name=illness
 data_name=custom
 
