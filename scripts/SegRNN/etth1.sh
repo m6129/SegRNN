@@ -13,7 +13,7 @@ model_id_name=ETTh1
 data_name=ETTh1
 
 seq_len=720
-for pred_len in 24 96 192 336 720
+for pred_len in 96 192 336 720
 do
     python -u run_longExp.py \
       --is_training 1 \
@@ -25,7 +25,7 @@ do
       --features M \
       --seq_len $seq_len \
       --pred_len $pred_len \
-      --seg_len 24 \
+      --seg_len 48 \
       --enc_in 7 \
       --d_model 512 \
       --dropout 0.5 \
