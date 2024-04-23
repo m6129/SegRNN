@@ -13,7 +13,7 @@ model_name=SegRNN
 seq_len=720
 
 root_path_name=./dataset/
-data_path_name=illness.csv
+data_path_name=national_illness.csv
 model_id_name=illness
 data_name=custom
 for pred_len in 24 36 48 60
@@ -25,7 +25,7 @@ do
       --model_id $model_id_name'_'$seq_len'_'$pred_len \
       --model $model_name \
       --data $data_name \
-      --features S \
+      --features MS \
       --seq_len $seq_len \
       --pred_len $pred_len \
       --seg_len 24 \
