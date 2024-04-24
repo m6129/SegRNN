@@ -319,7 +319,7 @@ class Exp_Main(Exp_Basic):
         f.write(setting + "  \n")
         f.write(f'mse_{forecast_x}:{mse}, mae_{forecast_x}:{mae}')
         f.write('\n\n')
-        f.close()
+        #f.close()
 
         # np.save(folder_path + 'metrics.npy', np.array([mae, mse, rmse, mape, mspe,rse, corr]))
         np.save(folder_path + 'pred.npy', preds)
