@@ -312,7 +312,7 @@ class Exp_Main(Exp_Basic):
             os.makedirs(folder_path)
         #------------ вставка
         with open("result.txt", 'a') as f:
-            for forecast_x in (24, 96, 192, 336, 720):
+            for forecast_x in (24, 36, 48, 60):
                 mae, mse, rmse, mape, mspe, rse, corr = metric(preds[:forecast_x], trues[:forecast_x])
         print(f'mse_{forecast_x}:{mse}, mae_{forecast_x}:{mae}')
         f = open("result.txt", 'a')
