@@ -25,7 +25,7 @@ do
       --features M \
       --seq_len $seq_len \
       --pred_len $pred_len \
-      --seg_len 48 \
+      --seg_len 24 \
       --enc_in 21 \
       --d_model 512 \
       --dropout 0.5 \
@@ -34,5 +34,5 @@ do
       --rnn_type gru \
       --dec_way pmf \
       --channel_id 1 \
-      --itr 1 --batch_size 64 --learning_rate 0.0001 > logs/LongForecasting/$model_name'_'$model_id_name'_'$seq_len'_'$pred_len.log
+      --itr 1 --batch_size 8 --learning_rate 0.0001 > logs/LongForecasting/$model_name'_'$model_id_name'_'$seq_len'_'$pred_len.log
 done
