@@ -13,8 +13,8 @@ model_name=SegRNN
 seq_len=720
 
 root_path_name=./dataset/
-data_path_name=illness.csv
-model_id_name=illness
+data_path_name=national_illness.csv
+model_id_name=national_illness
 data_name=custom
 for pred_len in 24 36 48 60
 do
