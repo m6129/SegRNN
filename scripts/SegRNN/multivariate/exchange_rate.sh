@@ -25,7 +25,7 @@ do
       --features M \
       --seq_len $seq_len \
       --pred_len $pred_len \
-      --seg_len 48 \
+      --seg_len 24 \
       --enc_in 21 \
       --d_model 512 \
       --dropout 0.5 \
