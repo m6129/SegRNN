@@ -26,7 +26,7 @@ do
       --seq_len $seq_len \
       --pred_len $pred_len \
       --seg_len 24 \
-      --enc_in 21 \
+      --enc_in 7 \
       --d_model 512 \
       --dropout 0.5 \
       --train_epochs 30 \
