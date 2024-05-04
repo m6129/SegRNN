@@ -10,7 +10,7 @@ if [ ! -d "./logs/LongForecasting/univariate" ]; then
     mkdir ./logs/LongForecasting/univariate
 fi
 model_name=SegRNN
-seq_len=720
+seq_len=60
 
 root_path_name=./dataset/
 data_path_name=national_illness.csv

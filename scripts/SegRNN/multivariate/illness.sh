@@ -12,7 +12,7 @@ data_path_name=national_illness.csv
 model_id_name=illness
 data_name=custom
 
-seq_len=720
+seq_len=60
 for pred_len in 24 36 48 60
 do
     python -u run_longExp.py \
